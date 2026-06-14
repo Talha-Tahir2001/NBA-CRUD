@@ -1,0 +1,35 @@
+{
+  "name": "nba-server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx watch src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Talha",
+  "license": "ISC",
+  "description": "A simple NBA API server built with Node.js and Express with TypeScript.",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "helmet": "^8.2.0",
+    "mongoose": "^9.7.0",
+    "morgan": "^1.11.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/mongoose": "^5.11.96",
+    "@types/morgan": "^1.9.10",
+    "@types/node": "^25.9.3",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  }
+}
